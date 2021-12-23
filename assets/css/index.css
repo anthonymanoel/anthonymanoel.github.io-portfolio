@@ -1,0 +1,141 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgba(249, 250, 255, 1);
+    width: 100%;
+    height: auto;
+}
+ul {
+    font-family: "Montserrat Alternates", "Poppins", "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    padding-top: 23px;
+}
+
+/*Styling Navbar*/
+#nav_logo{
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 36px;
+    padding-left: 0px;
+    padding-top: 23px ;
+}
+/*Finished*/
+
+/*Begin Style group text*/
+section{
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 1);
+}
+#group_text{
+    width: auto;
+    height: 234px;
+    padding-top: 200px;
+    padding-left: 200px;
+    text-shadow: 2px;
+    line-height: 36px;
+}
+#hi{
+    font-weight: 700;
+    font-size: 36px;
+    padding-left: 3px;
+    text-align: left;
+}
+#Anthony{
+    font-weight: 700;
+    font-size: 36px;
+    padding-left: 3px;
+    text-align: left;
+}
+#FE_dev{
+    padding-left: 144px;
+    font-weight: 400;
+    font-size: 22px;
+}
+#searching{
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 36px;
+}
+/*After trying make line height and padding left, 
+can't, 
+so i make other id just to fix this*/
+#space{
+    padding-left: 120px;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 36px;
+}
+/*Section Group_text finished*/
+
+/*Section buttons_left*/
+
+#buttons_left{
+    width: 40px;
+    height: auto;
+    padding-left: 16px;
+}
+#translate_en{
+    padding-top: 380px;
+}
+#linkedin{
+    padding-top: 402px;
+}
+#github{
+    padding-top: 424px;
+}
+/*Section buttons_left finished*/
+/*Just content img*/
+#perfil{
+    position: absolute;
+width: 249px;
+height: 398px;
+left: 65%;
+top: 35%;
+border-radius: 76px;
+}
+/*content home page finished*/
+/*Part two*/
+
+#github{
+    padding-top: 30px;
+}   
+
+#me{
+    padding-top: 200px;
+}
+.aboutMe{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.devWeb{
+    width: 100%;
+    height: 105px;
+    padding-left: 60px;
+    
+}
+#text1{
+    position: absolute;
+width: 390px;
+height: auto;
+font-family: Poppins;
+font-weight: 400;
+font-size: 20px;
+}
+#text2{
+    padding-left: 70%;
+    text-align-last: center;
+    font-size: 20px;
+}
+/*Before all texts over githubprint*/
+/*CV, Retangle*/
+.button-flex{
+    width: 400px;
+    height: 110px;
+    align-items: center;
+    display: inline-flex;
+}
+/**/

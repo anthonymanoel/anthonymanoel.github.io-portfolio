@@ -21,12 +21,16 @@ ul {
     padding-left: 0px;
     padding-top: 23px ;
 }
+#Sobre{
+    scroll-behavior: auto;
+}
 /*Finished*/
 
 /*Begin Style group text*/
 section{
     font-family: 'Poppins';
     color: rgba(0, 0, 0, 1);
+    
 }
 #group_text{
     width: auto;
@@ -98,13 +102,19 @@ border-radius: 76px;
 }
 /*content home page finished*/
 /*Part two*/
-
+.grupo{
+    padding-top: 170px;
+    width: 100%;
+}
 #github{
-    padding-top: 30px;
+    padding-top: 0px;
+
 }   
 
 #me{
-    padding-top: 200px;
+    padding-top: 70%;
+    padding-left: 46.5%;
+    text-align: center;
 }
 .aboutMe{
     padding-top: 10px;
@@ -131,11 +141,8 @@ font-size: 20px;
     font-size: 20px;
 }
 /*Before all texts over githubprint*/
-/*CV, Retangle*/
-.button-flex{
-    width: 400px;
-    height: 110px;
-    align-items: center;
-    display: inline-flex;
+/*Footer*/
+#rodapé{
+    margin-left: 5px;
 }
 /**/

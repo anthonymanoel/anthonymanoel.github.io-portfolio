@@ -27,6 +27,30 @@ ul {
 /*Finished*/
 
 /*Begin Style group text*/
+.div-mae{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    justify-content: space-between;
+    padding: 0 120px;
+}
+.description-me{
+    margin-left: 150px;
+}
+.image-perfil{
+    margin-left: 150px;
+}
+.about-anthony{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texts{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
 section{
     font-family: 'Poppins';
     color: rgba(0, 0, 0, 1);
@@ -35,8 +59,6 @@ section{
 #group_text{
     width: auto;
     height: 234px;
-    padding-top: 200px;
-    padding-left: 200px;
     text-shadow: 2px;
     line-height: 36px;
 }
@@ -79,7 +101,7 @@ so i make other id just to fix this*/
 #buttons_left{
     width: 40px;
     height: auto;
-    padding-left: 16px;
+
 }
 #translate_en{
     padding-top: 380px;
@@ -93,17 +115,21 @@ so i make other id just to fix this*/
 /*Section buttons_left finished*/
 /*Just content img*/
 #perfil{
-    position: absolute;
+    
 width: 249px;
 height: 398px;
-left: 65%;
-top: 35%;
+
 border-radius: 76px;
 }
 /*content home page finished*/
 /*Part two*/
+.fixerror{
+    display: flex;
+    justify-content: center;
+   
+}
 .grupo{
-    padding-top: 170px;
+
     width: 100%;
 }
 #github{
@@ -112,8 +138,6 @@ border-radius: 76px;
 }   
 
 #me{
-    padding-top: 70%;
-    padding-left: 46.5%;
     text-align: center;
 }
 .aboutMe{
@@ -127,16 +151,17 @@ border-radius: 76px;
     padding-left: 60px;
     
 }
+
 #text1{
-    position: absolute;
-width: 390px;
-height: auto;
-font-family: Poppins;
-font-weight: 400;
-font-size: 20px;
+    position: relative;
+    width: 390px;
+
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
 }
+
 #text2{
-    padding-left: 70%;
     text-align-last: center;
     font-size: 20px;
 }
@@ -146,3 +171,9 @@ font-size: 20px;
     margin-left: 5px;
 }
 /**/
+
+
+
+
+/* ALTERACAO ANJINGO */
+

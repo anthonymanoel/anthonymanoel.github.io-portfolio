@@ -35,6 +35,7 @@ ul {
     padding: 0 120px;
 }
 .description-me{
+    width: 1200px;
     margin-left: 150px;
 }
 .image-perfil{
@@ -45,6 +46,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 200px;
 }
 .texts{
     display: flex;
@@ -171,9 +173,3 @@ border-radius: 76px;
     margin-left: 5px;
 }
 /**/
-
-
-
-
-/* ALTERACAO ANJINGO */
-

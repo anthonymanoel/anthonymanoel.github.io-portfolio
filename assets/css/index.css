@@ -1,175 +1,307 @@
+*{
+    padding: 0;
+}
 html{
     scroll-behavior: smooth;
+    max-width: 100%;
+    list-style: none;
 }
 body{
-    background-color:rgba(249, 250, 255, 1);
+    background-color: #111;
     width: 100%;
     height: auto;
 }
 ul {
     font-family: "Montserrat Alternates", "Poppins", "Roboto";
     font-weight: 500;
-    font-size: 18px;
-    padding-top: 23px;
+    font-size: 1.05em;
+    padding-top: 0.2rem;
 }
-
+p{
+  font-family: "Roboto", "Montserrat Alternates";
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
 /*Styling Navbar*/
+#header{
+    padding: 3rem;
+}
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+}
 #nav_logo{
+    padding-top: 0.5em;
     font-family: "Poppins";
     font-weight: 700;
     font-size: 36px;
-    padding-left: 0px;
-    padding-top: 23px ;
+    padding-left: 0rem;
+    padding-top:0.2rem;
+    color: white;
 }
-#Sobre{
+#resume{
     scroll-behavior: auto;
 }
 /*Finished*/
 
-/*Begin Style group text*/
-.div-mae{
+/* Main Content */
+.hey{
+    padding-left: 11.25rem;
+    padding-top: 12.5rem;
+    color: white;
+}
+.gradient{
+    padding-left: 11.25rem;
+    padding-top: 1rem;
+    font-size: 6em;
+    font-weight: 600;
+    /*Gradient beside this*/
+    background-image: linear-gradient(89.81deg, #9845E8 -1.72%, #33D2FF 54.05%, #DD5789 99.78%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+.features{
+    color: white;
+    font-weight: 500;
+    font-size: 2em;
     display: flex;
-    flex-direction: row;
-    margin-top: 120px;
-    justify-content: space-between;
-    padding: 0 120px;
+    justify-content: flex-start;
+    margin-left: 11.25rem;
+    margin-top: 6rem;
 }
-.description-me{
-    width: 1200px;
-    margin-left: 150px;
+.about_me{
+    width: 67.5rem;
+    height: auto;
+    font-style: "Montserrat Alternates";
+    font-size: 1.125em;
+    font-weight: 200;
+    line-height: 1.5rem;
+    color: rgba(240, 240, 240, 1);
+    padding-top: 1.8rem;
+    padding-left: 11.25rem;
+    text-align: justify;
 }
-.image-perfil{
-    margin-left: 150px;
+/*Grid and display flex here*/
+.projects{
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
 }
-.about-anthony{
-    width: 100%;
+.projects_flexbox{
+    display: grid;
+    grid-template-columns: 31.25rem 31.25rem;
+    grid-template-rows: minmax(400px,500px);
+}
+#queen{
+    margin: 20px;
+    height: 100%;
+    width: auto;
+}
+#jpg1{
+    height: 500;
+}
+.nameProject{
+    font-size: 1.5em;
+    font-family: "Montserrat";
+    font-weight: 400;
+    color: white;
+}
+.text-resume{
+    text-align: justify;
+    font-size: 1em;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #c4c4c4;
+}
+.text-resume:hover{
+    color: antiquewhite;
+}
+.line{
+    border: 0.3px solid;
+    border-color: #c4c4c4;
+    position: absolute;
+    width: 1080px;
+    height: 0px;
+    left: 100px;
+}
+/*Grid and display edit before*/
+/* End of Main Content*/
+
+/* Section_Experience Content*/
+#experience{
+    width: 65.94rem;
+    height: 30rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 200px;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    color: #c4c4c4;
 }
-.texts{
+/*Experience*/
+.frame_1{
+    width: 53.25rem;
+    height: 8.565rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-bottom: 30px;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 60px;
 }
-section{
-    font-family: 'Poppins';
-    color: rgba(0, 0, 0, 1);
-    
+.consistent{
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 12px 0px;
 }
-#group_text{
-    width: auto;
-    height: 234px;
-    text-shadow: 2px;
-    line-height: 36px;
-}
-#hi{
-    font-weight: 700;
-    font-size: 36px;
-    padding-left: 3px;
-    text-align: left;
-}
-#Anthony{
-    font-weight: 700;
-    font-size: 36px;
-    padding-left: 3px;
-    text-align: left;
-}
-#FE_dev{
-    padding-left: 144px;
-    font-weight: 400;
-    font-size: 22px;
-}
-#searching{
-    padding-left: 100px;
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 36px;
-}
-/*After trying make line height and padding left, 
-can't, 
-so i make other id just to fix this*/
-#space{
-    padding-left: 120px;
-    font-size: 20px;
-    font-weight: 200;
-    line-height: 36px;
-}
-/*Section Group_text finished*/
-
-/*Section buttons_left*/
-
-#buttons_left{
-    width: 40px;
-    height: auto;
-
-}
-#translate_en{
-    padding-top: 380px;
-}
-#linkedin{
-    padding-top: 402px;
-}
-#github{
-    padding-top: 424px;
-}
-/*Section buttons_left finished*/
-/*Just content img*/
-#perfil{
-    
-width: 249px;
-height: 398px;
-
-border-radius: 76px;
-}
-/*content home page finished*/
-/*Part two*/
-.fixerror{
+.consistent{
     display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+}
+.function{
+    color: #fff;
+    width: 19.75rem;
+    height: 1.75rem;
+    margin-top: 0;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+.time{
+    font-size: 0.6em;
+    color: #fbfbfb;
+    font-weight: 300;
+    font-family: "roboto";
+    width: 136px;
+
+}
+.localWork{
+    font-family: "roboto";
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #6CAea4;
+}
+.resume_job{
+    text-align: justify;
+    color: #c4c4c4;
+    font-size: 1em;
+    font-family: "roboto";
+    font-weight: 300;
+}
+/*End - Experience*/
+/*Search - Experience*/
+.frame_2{
+    width: 53.25rem;
+    height: 8.565rem;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-   
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 60px;
 }
-.grupo{
-
-    width: 100%;
+.function_2{
+    color: #fff;
+    width: 19.75rem;
+    height: 1.75rem;
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: 300;
 }
-#github{
-    padding-top: 0px;
-
-}   
-
-#me{
-    text-align: center;
+.time_2{
+    font-size: 0.6em;
+    color: #fbfbfb;
+    font-weight: 300;
+    font-family: "roboto";
+    width: 50px;
 }
-.aboutMe{
-    padding-top: 10px;
-    text-align: center;
+.localWork_2{
+    font-family: "roboto";
+    font-size: 0.9em;
+    font-weight: 300;
+    color: #6CAea4;
 }
-
-.devWeb{
-    width: 100%;
-    height: 105px;
-    padding-left: 60px;
-    
+.resume_job_2{
+    text-align: justify;
+    color: #c4c4c4;
+    font-size: 1em;
+    font-family: "roboto";
+    font-weight: 300;
 }
-
-#text1{
-    position: relative;
-    width: 390px;
-
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 20px;
+/*Experience end*/
+/*Education after this*/
+#education{
+    width: 65.94rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 200px;
 }
-
-#text2{
-    text-align-last: center;
-    font-size: 20px;
+.education{
+    color: #c4c4c4;
+    display: flex;
+    justify-content: flex-start;
 }
-/*Before all texts over githubprint*/
-/*Footer*/
-#rodapé{
-    margin-left: 5px;
+#frame_education{
+    width: 60rem;
+    height: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0px;
+    margin-left: 60px;
 }
-/**/
+/*education end*/
+/*contact begin*/
+#contact{
+    width: 1080px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 140px;
+}
+.contact{
+    font-size: 1em;
+    font-weight: 300;
+    font-style: "poppins";
+    font-style: italic;
+    color: #c4c4c4;
+    padding-top: 50px;
+}
+.buttons_contact{
+    width: 900px;
+    height: 50px;
+    padding-left: 8rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.buttons{
+    width: 210px;
+    height: 50px;
+    margin: 4px;
+    background-color: #111;
+    border: 0.3px solid;
+    border-color: #fff;
+    border-radius: 5px;
+}
+.email{
+    margin: 10px;
+    color: #fff;
+    font-style: "poppins";
+    padding-top: 2px;
+}
+.email:hover{
+    color: #c4c4c4;
+}

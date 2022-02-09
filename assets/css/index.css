@@ -28,6 +28,9 @@ img{
 }
 /*Styling Navbar*/
 #header{
+    width: 100%;
+}
+#header{
     padding: 3rem;
 }
 #navbarNav{
@@ -43,12 +46,24 @@ img{
     padding-top:0.2rem;
     color: white;
 }
+.nav-link{
+    color: #fff;
+}
+.nav-link:hover{
+    color: #c4c4c4;
+}
 #resume{
     scroll-behavior: auto;
 }
 /*Finished*/
 
 /* Main Content */
+.container_presentation{
+    width: 100%;
+    height: auto;
+    max-width: 980px;
+    display: flex;
+}
 .hey{
     padding-left: 11.25rem;
     padding-top: 12.5rem;
@@ -76,7 +91,7 @@ img{
     margin-top: 6rem;
 }
 .about_me{
-    width: 67.5rem;
+    width: 100%;
     height: auto;
     font-style: "Montserrat Alternates";
     font-size: 1.125em;
@@ -84,7 +99,8 @@ img{
     line-height: 1.5rem;
     color: rgba(240, 240, 240, 1);
     padding-top: 1.8rem;
-    padding-left: 11.25rem;
+
+    justify-content: center;
     text-align: justify;
 }
 /*Grid and display flex here*/
@@ -96,7 +112,7 @@ img{
 .projects_flexbox{
     display: grid;
     grid-template-columns: 31.25rem 31.25rem;
-    grid-template-rows: minmax(400px,500px);
+    grid-template-rows: minmax(25rem,31.5rem);
 }
 #queen{
     margin: 20px;
@@ -104,7 +120,7 @@ img{
     width: auto;
 }
 #jpg1{
-    height: 500;
+    height: 50% 50%;
 }
 .nameProject{
     font-size: 1.5em;
@@ -268,7 +284,7 @@ img{
 /*contact begin*/
 #contact{
     width: 1080px;
-    height: 50px;
+    height: 200px;
     margin-left: 100px;
     margin-top: 140px;
 }
@@ -286,6 +302,7 @@ img{
     padding-left: 8rem;
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 .buttons{
     width: 210px;

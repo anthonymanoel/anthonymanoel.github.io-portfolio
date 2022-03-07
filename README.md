@@ -25,11 +25,11 @@
 </p> -->
 <!-- Status -->
 
-<!-- <h4 align="center"> 
-	🚧  Portfolio 🚀 Under construction...  🚧
+ <h4 align="center"> 
+	🚧  Construindo script do portfolio para o PT BR...  🚧
 </h4> 
 
-<hr> -->
+<hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
